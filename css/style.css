@@ -11,6 +11,21 @@
   nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #destinations {
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
+  }
+  #actions {
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
   }
   
   p {
@@ -21,9 +36,26 @@
     height: 460px;
     background-color: black;
     color: white;
-    padding: 24px 72px;
+    padding: 72px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
   }
-  
+  #headers {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #trending {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
   h1,
   h2 {
     text-align: center;
@@ -80,6 +112,9 @@
   #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   #subnav button {
